@@ -1,0 +1,49 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.top-header, .bot-footer {
+	height: 40px;
+	background-color: grey;
+}
+
+.main {
+	margin: 0;
+	padding: 0;
+}
+
+.aside-left-menu {
+	background-color: #17418F;
+	color: #fff;	
+}
+
+.aside-left-menu a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.aside-left-menu .form-control {
+  background-color: #17418F;
+  border-color: transparent;
+  border-bottom: 1px solid #697EA2;
+}
+
+.aside-left-menu .btn {
+  background-color: #17418F;
+  border-color: transparent;
+  border: 2px solid #fff;
+  border-radius: 40px;
+  min-width: 200px;
+}
+
+.section-team {
+  color: #17418F;
+  padding-top: 65px;
+  padding-bottom: 20px;
+}
+
+.section-team img {
+  border: #17418F solid 7px;
+}
