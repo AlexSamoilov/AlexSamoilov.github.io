@@ -1,0 +1,55 @@
+* {
+	box-sizing: border-box;
+
+
+
+	.experience {
+		background-color: #2f2f2f;
+		padding-top: 50px;
+		font-family: $m-f;
+		padding-bottom: 48px;
+		overflow: hidden;
+
+		.procent {
+			float:left;
+			width: 33.333333%;
+			padding-left: 10px;
+			padding-right: 10px;
+
+		}
+
+		.pr {
+			padding-top:-30px;
+			padding-bottom: 5px;
+			padding-left: 50px;
+			font-size: 14px;
+			text-align: center;
+			margin-top: 10px;
+			margin-bottom: 18px;
+	
+		}
+
+		.l-side {
+			float: left;
+			width: 66.666666%;
+			padding-left: 10px;
+			padding-right: 10px;
+		}
+
+
+
+
+	h2 {
+		color: $wht;
+		text-align: center;
+	}
+
+	p {
+		color: #cbcbcb;
+		font-size: $p-sz;
+		padding-bottom: 37px;
+		text-align: center;
+	}
+
+	}
+}

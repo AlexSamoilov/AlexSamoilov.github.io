@@ -1,0 +1,35 @@
+* {
+	box-sizing: border-box;
+
+
+	.blog {
+		background-color: #ebebea;
+		padding-top: 50px;
+		font-family: $m-f;
+		padding-bottom: 48px;
+
+
+		h2 {
+			text-align: center;
+			color: #2f2f2f;
+			font-weight: bold;
+			font-size: 29px;
+		}
+
+		p {
+			text-align: center;
+			color: #5e5e5e;
+			font-size: $p-sz;
+			padding-bottom: 50px;
+		}
+
+		img {
+			padding-left: 20px;
+			padding-bottom: 20px;
+		}
+
+		
+			
+
+		}
+	}

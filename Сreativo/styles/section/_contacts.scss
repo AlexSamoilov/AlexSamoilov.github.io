@@ -1,0 +1,24 @@
+* {
+	box-sizing: border-box;
+
+
+	.contacts {
+		background-color: #2f2f2f;
+		padding-top: 50px;
+		font-family: $m-f;
+		padding-bottom: 48px;
+
+
+		img {
+			padding-left: 119px;
+		}
+
+		p {
+			text-align: center;
+			color: $wht;
+			padding-bottom: 50px;
+			font-size: 20px;
+		}
+
+	}
+}

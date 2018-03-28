@@ -1,0 +1,19 @@
+* {
+	box-sizing: border-box;
+
+	.subscribe {
+		background-color: #2f2f2f;
+		padding-top: 50px;
+		font-family: $m-f;
+		padding-bottom: 48px;
+
+		p {
+			color: #8b8b8b;
+			text-align: center;
+			font-size: $p-sz;
+			font-weight:400;
+			padding-bottom: 20px;
+		}
+
+	}
+}

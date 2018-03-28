@@ -1,0 +1,72 @@
+.forms {
+			width:90%;
+			padding-left: 30px;
+
+			input,
+			textarea {
+				width: 100%;
+			}
+
+			.name {
+				padding: 10px;
+				font-size: 11px;
+				margin-bottom: 20px;
+				background-color: $wht;
+				border:1px solid $wht;
+				border-radius: 2px;
+				background: url("../img/name.png") no-repeat center right 10px,$wht;
+				
+		
+				
+			}
+
+
+			.mail {
+				padding: 10px;
+				font-size: 11px;
+				margin-bottom: 20px;
+				border:1px solid $wht;
+				border-radius: 2px;
+				background: url("../img/mail-img.png") no-repeat center right 10px, $wht;
+				
+			
+			}
+
+			.mail2 {
+				text-align: center;
+				padding: 10px;
+				font-size: 11px;
+				margin-bottom: 20px;
+				border:1px solid $wht;
+				border-radius: 2px;
+				background: url("../img/m.png") no-repeat center left 10px, $wht;
+				
+			
+			}
+
+
+	
+
+			.textarea {
+				height: 90px;
+				font-size: 11px;
+				padding: 10px;
+				resize:none;
+				border:1px solid $wht;
+				border-radius: 2px;
+				margin-bottom: 20px;
+				background: url("../img/text-img.png")no-repeat top 12px right 10px, $wht;
+			}
+
+			.submit {
+				background-color: #2f2f2f;
+				border:1px solid #2f2f2f;
+				border-radius:2px;
+				color: $wht;
+				font-size: 10px;
+				font-weight: bold;
+				padding: 9px;
+				margin-left:40%;
+
+}
+}

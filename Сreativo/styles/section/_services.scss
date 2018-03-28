@@ -1,0 +1,48 @@
+* {
+	box-sizing: border-box;
+
+
+.services {
+	background-color: #db5941;
+	color: $wht;
+	text-align: center;
+	font-family: $m-f;
+	padding-top: 50px;
+
+
+	h2 {
+	color: $wht;
+	font-family: $m-f;
+	padding-top: 50px;
+	}
+
+	
+		
+
+	p {
+		font-size: 12px;
+		font-weight: normal;
+		padding-bottom: 48px;
+		
+
+	}
+
+	
+
+	.txt {
+		margin-top: 40px;
+		color: #edaca0;
+		/*flex-wrap: wrap;
+		justify-content:space-around;*/
+	}
+
+
+	img {
+		padding-top: 48px;
+	
+	}
+
+
+}
+}
+
