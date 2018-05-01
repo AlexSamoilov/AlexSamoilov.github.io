@@ -1,9 +1,47 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title></title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+ 
+  	<link rel="stylesheet" href="normalize.css">
+  	<link rel="stylesheet" href="style.css">
+ 	<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+  	<link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
+	<link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css">
+	<title>Webdesign project</title>
 </head>
 <body>
 
+	<header>
+		<div class="header-container">
+			<div class="logo">
+				<img src="img/Logo.png" alt="logo">
+			</div>
+			<input type="checkbox" id="menu-checkbox">
+			<nav role='navigation'>
+				<label for="menu-checkbox" class="toggle-button" data-open="MENU" data-close="CLOSE" onclick></label>
+				<ul class="main-menu">
+					<li><a href="#">HOME</a></li>
+					<li><a href="#">PORTFOLIO</a></li>
+					<li><a href="#">BLOG</a></li>
+					<li><a href="#">ABOUT US</a></li>
+					<li><a href="#">CONTACT</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+
+
+
+<!-- add jquery -->
+	<script
+  		src="http://code.jquery.com/jquery-2.2.4.min.js"
+  		integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  		crossorigin="anonymous"></script>
+  	<script src="owlcarousel/owl.carousel.min.js"></script>
+   	<script src="script.js"></script>
 </body>
 </html>
