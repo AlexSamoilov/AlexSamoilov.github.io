@@ -133,6 +133,56 @@ p.second-p{
 	top: -105px;
 }
 
+.portfolio {
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.portfolio h4 {
+	background: #424147;
+	font-size: 18px;
+	padding: 0 8px;
+	display: inline-block;
+	color: #f5e10a;
+	margin-bottom: 30px;
+}
+
+.portfolio p {
+	color: #424146;
+	font-size: 16px;
+}
+
+.toggles button {
+	border: none;
+	color: #424146;
+	cursor: pointer;
+	font-size: 16px;
+	margin: 20px 5px;
+	background: #fff;
+}
+
+.toggles button:after {
+	content: ' / ';
+}
+
+.toggles button:last-child:after {
+	content: '';
+}
+
+.posts {
+	width: 90%;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+}
+
+.post img {
+	max-width: 95%;
+}
+
+
+
 
 
 /*adaptive*/
