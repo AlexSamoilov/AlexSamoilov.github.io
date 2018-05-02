@@ -158,6 +158,7 @@ p.second-p{
 	color: #424146;
 	cursor: pointer;
 	font-size: 16px;
+	font-weight: bold;
 	margin: 20px 5px;
 	background: #fff;
 }
@@ -239,4 +240,56 @@ p.second-p{
 		top: 30px;
 		right: 25px;
 	}
+
+	.top-slide {
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+
+	.top-slide h2 {
+		font-size: 30px;
+	}
+
+	.top-slide p {
+		font-size: 16px;
+	}
+
+	.specialize-container h3 {
+		font-size: 30px;
+	}
+
+	.specialize-container p {
+		font-size: 16px;
+	}
+
+	.specialize-card {
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+	
+	.button-card {
+		width: 250px;
+		margin: 0 auto;
+	}
+
+	.posts {
+		width: 90%;
+		display: grid;
+		margin: 0 auto;
+		grid-template-columns: auto;
+	}
+
+	.card {
+		height: 313px;
+	}
+
+	.card:last-child {
+		padding-bottom: 30px;
+	}
+
 }
