@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Test</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header id="header">
+    <img class="desktop" src="img/header.JPG"/>
+    <img class="mobile" src="img/header-mob.JPG"/>
+</header>
+<section class="top-banner">
+    <video poster="img/videopreload.JPG" playsinline autoplay muted loop>
+        <source src="video/btg.webm" type="video/webm">
+        <source src="video/btg.mp4" type="video/mp4">
+    </video>
+    <div class="top-banner_content">
+        <div class="text">
+            <h2>BTG Interventional Oncology is transforming
+                cancer care with smarter solutions
+            </h2>
+            <p>
+                Our treatments include elegant and innovative new medicines,
+                improved device technology and ground-breaking delivery techniques.
+            </p>
+            <a href="#explore" class="to-bottom"></a>
+        </div>
+    </div>
+</section>
+<section id="explore" class="news background">
+    <div class="news-content">
+        <header>
+            <h2 class="section-name">Explore io</h2>
+            <ul>
+                <li><a href="#">news</a></li>
+                <li><a href="#">UPDATES</a></li>
+                <li><a href="#">events</a></li>
+                <li><a href="#">video</a></li>
+                <li><a href="#">product</a></li>
+                <li><a href="#">ANNOUNCEMENT</a></li>
+                <li class="active"><a href="#">all</a></li>
+            </ul>
+            <a href="#" class="show-favorites">show <i></i> favorites</a>
+        </header>
+        <div class="news-all" data-masonry='{ "itemSelector": ".news-single", "columnWidth": 360 }'>
+            <article class="news-single update">
+                <div class="tax"><span>Update</span></div>
+                <div class="news-single-content">
+                    <div class="text">
+                        <div class="date">05 Oct</div>
+                        <div class="location">London UK</div>
+                        <h2 class="title">
+                            BTGPLC ACQUIRES ROXWOOD MEDICAL
+                        </h2>
+                        <span>
+                            BTG plc (LSE: BTG), the global specialist
+                            healthcare company, today announces it has
+                            acquired Roxwood Medical (“Roxwood”), an
+                            innovative provider of advanced....
+                        </span>
+                    </div>
+                </div>
+                <div class="news-footer">
+                    <a href="#" class="link"></a>
+                    <div id="news1" class="to-favorite"></div>
+                </div>
+            </article>
+            <article class="news-single update">
+                <div class="tax"><span>Update</span></div>
+                <div class="news-single-content">
+                    <div class="image">
+                        <img alt="image" src="img/content1.jpg" />
+                    </div>
+                    <div class="text">
+                        <div class="date">27 Sep</div>
+                        <div class="location">London UK</div>
+                        <h2 class="title">
+                            MIRADA MEDICAL SIGNS THREE-YEAR SOFTWARE
+                            DEVELOPMENT AGREEMENT WITH BTG
+                        </h2>
+                        <span>
+                            Mirada Medical Ltd, a global medical imaging
+                            software company, has signed a three-year....
+                        </span>
+                    </div>
+                </div>
+                <div class="news-footer">
+                    <a href="#" class="link"></a>
+                    <div id="news2" class="to-favorite"></div>
+                </div>
+            </article>
+            <article class="news-single">
+                <div class="news-single-content">
+                    <div class="text">
+                        <h2 class="title">
+                            In Interventional Medicine we’re making giant leaps
+                        </h2>
+                        <span>
+                            Read our Manifesto
+                        </span>
+                    </div>
+                </div>
+                <div class="news-footer">
+                    <a href="#" class="link"></a>
+                    <div id="news3" class="to-favorite"></div>
+                </div>
+            </article>
+            <article class="news-single video">
+                <div class="tax"><span>Video</span></div>
+                <div class="news-single-content">
+                    <div class="image">
+                        <div class="video-play-link"></div>
+                        <img src="img/videopreload.JPG" alt="image"/>
+                        <div class="modal-video">
+                            <div class="video-play"></div>
+                            <video poster="img/videopreload.JPG" preload="metadata" id="myVideo" class="video-content">
+                                <source src="video/btg.webm" type="video/webm">
+                                <source src="video/btg.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                    <div class="text">
+                        <h2 class="title">
+                            THERASPHERE
+                        </h2>
+                        <span>
+                            TheraSphere® yttrium-90 glass microspheres deliver a
+                            targeted radiation dose to the tumour whilst minimising
+                            exposure to healthy tissue with mild to moderate side effects.15
+                        </span>
+                    </div>
+                </div>
+                <div class="news-footer">
+                    <a href="#" class="link"></a>
+                    <div id="news4" class="to-favorite"></div>
+                </div>
+            </article>
+            <article class="news-single twitt">
+                <div class="news-single-content">
+                    <div class="text">
+                        <h2 class="title">
+                            Follow us on
+                            Twitter for all the latest updates<br><br>
+                            @BtGTIO
+                        </h2>
+                    </div>
+                </div>
+                <div class="news-footer">
+                    <a href="#" class="link"></a>
+                    <div id="news5" class="to-favorite"></div>
+                </div>
+            </article>
+            <article class="news-single news">
+                <div class="tax"><span>News</span></div>
+                <div class="news-single-content">
+                    <div class="image">
+                        <img alt="image" src="img/content2.jpg" />
+                    </div>
+                    <div class="text">
+                        <div class="date">27 Sep</div>
+                        <div class="location">Canada</div>
+                        <h2 class="title">
+                            HEALTH CANADA APPROVES RADIOPAQUE BEAD
+                            FOR HCC, CRC LIVER METASTASES
+                        </h2>
+                        <span>
+                            BTG International Canada Inc. announced it
+                            received approval for its drug-eluding device,
+                            the DC Bead LUMI, from Health Canada. ..
+                        </span>
+                    </div>
+                </div>
+                <div class="news-footer">
+                    <a href="#" class="link"></a>
+                    <div id="news6" class="to-favorite"></div>
+                </div>
+            </article>
+            <article class="news-single events">
+                <div class="tax"><span>Events</span></div>
+                <div class="news-single-content">
+                    <div class="text">
+                        <div class="date">27 Sep</div>
+                        <h2 class="title">
+                            HEALTH CANADA APPROVES RADIOPAQUE BEAD
+                            FOR HCC, CRC LIVER METASTASES
+                        </h2>
+                        <div class="location">Canada</div>
+                    </div>
+                </div>
+                <div class="news-footer">
+                    <a href="#" class="link"></a>
+                    <div id="news7" class="to-favorite"></div>
+                </div>
+            </article>
+            <article class="news-single announcement">
+                <div class="tax"><span>announcement</span></div>
+                <div class="news-single-content">
+                    <div class="text">
+                        <h2 class="title">
+                            HEALTH CANADA APPROVES RADIOPAQUE BEAD
+                            FOR HCC, CRC LIVER METASTASES
+                        </h2>
+                    </div>
+                </div>
+                <div class="news-footer">
+                    <a href="#" class="link"></a>
+                    <div id="news8" class="to-favorite"></div>
+                </div>
+            </article>
+            <article class="news-single update">
+                <div class="tax"><span>Update</span></div>
+                <div class="news-single-content">
+                    <div class="text">
+                        <div class="date">05 Oct</div>
+                        <div class="location">London UK</div>
+                        <h2 class="title">
+                            BTGPLC ACQUIRES ROXWOOD MEDICAL
+                        </h2>
+                        <span>
+                            BTG plc (LSE: BTG), the global specialist
+                            healthcare company, today announces it has
+                            acquired Roxwood Medical (“Roxwood”), an
+                            innovative provider of advanced....
+                        </span>
+                    </div>
+                </div>
+                <div class="news-footer">
+                    <a href="#" class="link"></a>
+                    <div id="news9" class="to-favorite"></div>
+                </div>
+            </article>
+            <article class="news-single update">
+                <div class="tax"><span>Update</span></div>
+                <div class="news-single-content">
+                    <div class="image">
+                        <img alt="image" src="img/content1.jpg" />
+                    </div>
+                    <div class="text">
+                        <div class="date">27 Sep</div>
+                        <div class="location">London UK</div>
+                        <h2 class="title">
+                            MIRADA MEDICAL SIGNS THREE-YEAR SOFTWARE
+                            DEVELOPMENT AGREEMENT WITH BTG
+                        </h2>
+                        <span>
+                            Mirada Medical Ltd, a global medical imaging
+                            software company, has signed a three-year....
+                        </span>
+                    </div>
+                </div>
+                <div class="news-footer">
+                    <a href="#" class="link"></a>
+                    <div id="news10" class="to-favorite"></div>
+                </div>
+            </article>
+            <article class="news-single">
+                <div class="news-single-content">
+                    <div class="text">
+                        <h2 class="title">
+                            In Interventional Medicine we’re making giant leaps
+                        </h2>
+                        <span>
+                            Read our Manifesto
+                        </span>
+                    </div>
+                </div>
+                <div class="news-footer">
+                    <a href="#" class="link"></a>
+                    <div id="news11" class="to-favorite"></div>
+                </div>
+            </article>
+            <article class="news-single twitt">
+                <div class="news-single-content">
+                    <div class="text">
+                        <h2 class="title">
+                            Follow us on
+                            Twitter for all the latest updates<br><br>
+                            @BtGTIO
+                        </h2>
+                    </div>
+                </div>
+                <div class="news-footer">
+                    <a href="#" class="link"></a>
+                    <div id="news12" class="to-favorite"></div>
+                </div>
+            </article>
+            <article class="news-single news">
+                <div class="tax"><span>News</span></div>
+                <div class="news-single-content">
+                    <div class="text">
+                        <div class="date">27 Sep</div>
+                        <div class="location">Canada</div>
+                        <h2 class="title">
+                            HEALTH CANADA APPROVES RADIOPAQUE BEAD
+                            FOR HCC, CRC LIVER METASTASES
+                        </h2>
+                        <span>
+                            BTG International Canada Inc. announced it
+                            received approval for its drug-eluding device,
+                            the DC Bead LUMI, from Health Canada. ..
+                        </span>
+                    </div>
+                </div>
+                <div class="news-footer">
+                    <a href="#" class="link"></a>
+                    <div id="news13" class="to-favorite"></div>
+                </div>
+            </article>
+        </div>
+        <div href="#" class="load-more">LOAD MORE CONTENT</div>
+    </div>
+</section>
+<div id="modal" >
+    <div class="content">
+        <div class="close"></div>
+        <div class="content-text">
+            <h2 class="title">This is an external page</h2>
+            <span>Are you sure you would like to continue?</span>
+            <div class="links">
+                <a href="#" class="button">Yes please</a>
+                <a href="#" class="button">No take me back</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="modal2" >
+    <div class="content">
+        <div class="close"></div>
+        <div class="content-text">
+
+        </div>
+    </div>
+</div>
+<section class="explore-solution">
+    <div class="explore-solution-content">
+        <h2 class="section-name">Explore io solution</h2>
+        <div class="explore-solution-all">
+            <div class="explore-solution-single">
+                <div class="text">
+                    <div class="title">IO Embolisation</div>
+                    <ul>
+                        <li><a href="#">DC Bead®</a></li>
+                        <li><a href="#">DC Bead LUMI™</a></li>
+                        <li><a href="#">DC BeadM1®</a></li>
+                        <li><a href="#">Bead Block®</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="explore-solution-single">
+                <div class="text">
+                    <div class="title">IO Radiation TherapY</div>
+                    <ul>
+                        <li><a href="#">TheraSphere®</a></li>
+                        <li><a href="#">Simplicit90Y™</a></li>
+                        <li><a href="#">βETA™</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="explore-solution-single">
+                <div class="text">
+                    <div class="title">IO Ablation</div>
+                    <ul>
+                        <li><a href="#">IO CryoAblation</a></li>
+                        <li><a href="#">IO Microwave Ablation</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="twitter-feed">
+    <div class="twitter-feed-content">
+        <header>
+            <h2 class="section-name">LATEST FROM @BTGIO</h2>
+        </header>
+        <div class="twitter-feed-all">
+            <div class="twitter-feed-more">
+                <div class="text_block">
+                    <span>Wont to know more?</span>
+                    <a class="twitter-feed-load-more">see more</a>
+                </div>
+            </div>
+            <div class="twitter-feed-single">
+                <div class="text">
+                    Endophytic RCC - single session bx & cryoablation.
+                    #IRad #MIIP @SIRspecialists @SIRRFS @BTGIO @rkryu
+                    @pj_rochon @ahmed_kamel_ir
+                    <div class="date">31 Oct</div>
+                    <div class="author">@BTGIO <i></i> @AlexCVIR</div>
+                </div>
+            </div>
+            <div class="twitter-feed-single">
+                <div class="text">
+                    Endophytic RCC - single session bx & cryoablation.
+                    #IRad #MIIP @SIRspecialists @SIRRFS @BTGIO @rkryu
+                    @pj_rochon @ahmed_kamel_ir
+                    <div class="date">31 Oct</div>
+                    <div class="author">@BTGIO <i></i> @AlexCVIR</div>
+                </div>
+            </div>
+            <div class="twitter-feed-single">
+                <div class="text">
+                    Endophytic RCC - single session bx & cryoablation.
+                    #IRad #MIIP @SIRspecialists @SIRRFS @BTGIO @rkryu
+                    @pj_rochon @ahmed_kamel_ir
+                    <div class="date">31 Oct</div>
+                    <div class="author">@BTGIO <i></i> @AlexCVIR</div>
+                </div>
+            </div>
+            <div class="twitter-feed-single">
+                <div class="text">
+                    Endophytic RCC - single session bx & cryoablation.
+                    #IRad #MIIP @SIRspecialists @SIRRFS @BTGIO @rkryu
+                    @pj_rochon @ahmed_kamel_ir
+                    <div class="date">31 Oct</div>
+                    <div class="author">@BTGIO <i></i> @AlexCVIR</div>
+                </div>
+            </div>
+            <div class="twitter-feed-single">
+                <div class="text">
+                    Endophytic RCC - single session bx & cryoablation.
+                    #IRad #MIIP @SIRspecialists @SIRRFS @BTGIO @rkryu
+                    @pj_rochon @ahmed_kamel_ir
+                    <div class="date">31 Oct</div>
+                    <div class="author">@BTGIO <i></i> @AlexCVIR</div>
+                </div>
+            </div>
+            <div class="twitter-feed-single">
+                <div class="text">
+                    Endophytic RCC - single session bx & cryoablation.
+                    #IRad #MIIP @SIRspecialists @SIRRFS @BTGIO @rkryu
+                    @pj_rochon @ahmed_kamel_ir
+                    <div class="date">31 Oct</div>
+                    <div class="author">@BTGIO <i></i> @AlexCVIR</div>
+                </div>
+            </div>
+            <div class="twitter-feed-single">
+                <div class="text">
+                    Endophytic RCC - single session bx & cryoablation.
+                    #IRad #MIIP @SIRspecialists @SIRRFS @BTGIO @rkryu
+                    @pj_rochon @ahmed_kamel_ir
+                    <div class="date">31 Oct</div>
+                    <div class="author">@BTGIO <i></i> @AlexCVIR</div>
+                </div>
+            </div>
+            <div class="twitter-feed-single">
+                <div class="text">
+                    Endophytic RCC - single session bx & cryoablation.
+                    #IRad #MIIP @SIRspecialists @SIRRFS @BTGIO @rkryu
+                    @pj_rochon @ahmed_kamel_ir
+                    <div class="date">31 Oct</div>
+                    <div class="author">@BTGIO <i></i> @AlexCVIR</div>
+                </div>
+            </div>
+            <div class="twitter-feed-single">
+                <div class="text">
+                    Endophytic RCC - single session bx & cryoablation.
+                    #IRad #MIIP @SIRspecialists @SIRRFS @BTGIO @rkryu
+                    @pj_rochon @ahmed_kamel_ir
+                    <div class="date">31 Oct</div>
+                    <div class="author">@BTGIO <i></i> @AlexCVIR</div>
+                </div>
+            </div>
+            <div class="twitter-feed-single">
+                <div class="text">
+                    Endophytic RCC - single session bx & cryoablation.
+                    #IRad #MIIP @SIRspecialists @SIRRFS @BTGIO @rkryu
+                    @pj_rochon @ahmed_kamel_ir
+                    <div class="date">31 Oct</div>
+                    <div class="author">@BTGIO <i></i> @AlexCVIR</div>
+                </div>
+            </div>
+            <div class="twitter-feed-more">
+                <div class="text_block" >
+                    <span>Wont to know more?</span>
+                    <a class="twitter-feed-load-more">follow us</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="engage">
+    <div class="text">
+        <div id="form-content">
+            <h2 class="title">ENGAGE WITH IO</h2>
+            <span>
+                Our whole world is interventional oncology and if
+                yours is too we want to hear from you
+            </span>
+            <a href="#" class="button" id="open-form">Submit article or get in touch</a>
+        </div>
+        <div class="text__block">
+            <form class="contact_us__form" action="index.html" method="post">
+                <div class="close-form"></div>
+                <div class="contact_us__form_item">
+                    <label for="name">What's your name?</label>
+                    <div class="contact_us__form_input">
+                        <div class="text_input">Your name is</div>
+                        <input type="text" class="input" name="name" id="name">
+                        <i class="input_enter"></i>
+                        <i class="input_remove"></i>
+                    </div>
+                </div>
+                <div class="contact_us__form_item">
+                    <label for="company">What company are you from?</label>
+                    <div class="contact_us__form_input">
+                        <div class="text_input">Your company is</div>
+                        <input type="text" class="input" name="company" id="company">
+                        <i class="input_enter"></i>
+                        <i class="input_remove"></i>
+                    </div>
+                </div>
+                <div class="contact_us__form_item">
+                    <label for="email">What’s your email?</label>
+                    <div class="contact_us__form_input">
+                        <div class="text_input">Your email is</div>
+                        <input type="text" class="input" name="email" id="email">
+                        <i class="input_enter"></i>
+                        <i class="input_remove"></i>
+                        <span class="email_ver"></span>
+                    </div>
+                </div>
+                <div class="contact_us__form_item" style="border-bottom: none">
+                    <label for="help">How can we help you today?</label>
+                    <div class="contact_us__form_input" style="flex-wrap:wrap;">
+                        <div class="text_input">Your question is</div>
+                        <textarea name="help" class="input" id="help" ></textarea>
+                    </div>
+                    <button type="button" class="button" id="submit" value="Submit">Send</button>
+                </div>
+                <div class="contact_us__form_item">
+                    <label class="succses">Thanks for getting in touch!</label>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+<footer id="site-footer">
+    <img alt="image" src="img/footer-line.png" class="background-line"/>
+    <div class="footer-text">
+        <span class="footer-text-left">TRANSFORM CANCER CARE WITH SMARTER SOLUT<b>IO</b>NS</span>
+        <span class="footer-text-logo">interventional oncologe</span>
+    </div>
+        <div class="footer-text">
+            <p><strong>References</strong></p>
+                    <ol>
+                        <li>Lammer J. Malagari K. Vogl T et al. Cardiovasc Intervent Radiol 33 (2010):41-52.</li>
+                        <li>Internal analysrs of Pubmed Search June 2014 updated March 2015</li>
+                        <li>Hong K. Khwaia A. Liapi E et al. Clin Cancer Res 12 (2006): 25634.</li>
+                        <li>Varela M. Real Ml. Burrel M et al. J Hepatol 46 (2007): 474-81.</li>
+                        <li>Data on File</li>
+                        <li>A Lewis. C Adams. W Busby et al. J Mater Sci Mater Med 12 (2006): 1193-204.</li>
+                        <li>K Hidaka. L Morne. G Collin et al. J Mech Behav Blamed Mater 8 (2011): 2161-7</li>
+                        <li>Salem R. Thurston KG. J Vasc Interv Radiol2006117:1251-1278.</li>
+                        <li>Rhee TK. Lewandowskt RJ. Liu DM. et al. Annals of Surgery 2008;247:1029—1035.</li>
+                        <li>American Soctety of Clinical Oncology (ASCO). Cancerprogressnet. 2014. Timeline: Maior Milestones Against Cancer. Available at: www.cancerprogress.netltimeline/maior-
+                            milestones-against-cancer.</li>
+                        <li>United States Regulatory Commission (US. NRC). Measuring Radiation http://www.nrc.gov/about-nrc/radiationlhealtheﬂectslmeasunng-radiation.html. Updated Friday. June
+                            28. 2013: accessed July 22. 2014.</li>
+                        <li>McGnee 5. Data on ﬁle. July 18. 2014.</li>
+                        <li>Adapted from Brateman L. 1999. Brateman L. Radiation safety considerations for diagnostic radiology personnel, Radiographics. 1999 Jul-Aug:19(4):1037-55.</li>
+                        <li>Package Insert — Tl'teraSpherea Yttrium-90 Glass Microspheres Rev.12 ALARA = As Low As Reasonably Achievable.</li>
+                        <li>Package Insert - TheraSpherea Yttrium-90 Glass Microspheres - Rev. 12. Biocompatibles UK Ltd. a BTG International group company.</li>
+                    </ol>
+                    <p><strong>Corporate and Regional Press Releases</strong></p>
+                    <p>Corporate press releases are selected from infonnatlon communicated on www,btgplc.com and are selected because the information relates to BTG products available in various countries. The information Is not being shared to advocate use of a product outside of Its locally approved indication for use.</p>
+                    <p><strong>Noteworthy News</strong></p>
+                    <p>Noteworthy News articles are selected from Information communicated on websites external to BTG and are selected because the information relates to BTG products available In various countries. The information is not being shared to advocate use of a product outside of its locally approved indication for use.</p>
+                    <p>Not all products and/or indications are available in your temtory. LC Bead“ and Varithena" are not available outside the US for commercial distribution. DC Bead. LC Bead and Bead Block are trademarks and/or registered trademarks of Biocompatibles UK Ltd. EKOS. the EKOS logo and EkoSonic are trademarks and/or registered trademarks of EKOS Corporation. TheraSphere'" IS manufactured by Nordion (Canada) Inc. for Biocornpatibles UK Ltd. TheraSphere is a trademark of Theragenics Corporation used under license by Biocompaubles UK Ltd. TheraSphere is a registered trademark in the US. EU and certain other territories. Varithena is a trademark of Provensis Ltd and is a registered trademark in the US and certain other territories. Pneume and RePneu Corls are trademarks of Pneume. Pneume is a registered trademark in the US and certain other temtories. 'See more. Reach further. Treat smarter‘. 'lmagine where we can go'. BTG and the BTG roundel logo are trademarks of BTG lntemational Ltd. BTG and the BTG roundel logo are registered trademarks in the US. EU and certain other territories. Biocompaubles UK Ltd. EKOS Corporation. Provensis Ltd and Pneume Corporation are BTG International group companies. For full prescribing information please click here Bead Block". DC Bead", EKOS". LC Beadw. TheraSphere'". Pneume". and Varithena'" 9 Copyright</p>
+                    <p><strong>2017 BTG International Ltd.</strong></p>
+            </div>    
+
+    </footer>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script defer="defer" src="js/slick.min.js"></script>
+<script defer="defer" src="js/masonry.pkgd.min.js"></script>
+<script defer="defer" src="js/custom.js"></script>
+</body>
+</html>
